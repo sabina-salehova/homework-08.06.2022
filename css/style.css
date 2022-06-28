@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 7rem;
+}
+header{
+    padding: 30px 4rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.header-all{    
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: 15%;    
+}
+
+header .logo img{
+    width: 100%;
+    filter: brightness(100) grayscale(100);
+    color: #fff;
+    height: 46px;
+    font-size: 1.15rem;
+    vertical-align: middle;
+}
+
+header .nav-bar{
+    width: 65%;
+}
+
+header .header-all .nav-bar{
+    align-items: center;    
+}
+
+header .header-all .nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header .header-all .nav-bar li a{
+    color: white;
+    font-size: 18px;
+    padding: 12px 18px;
+    display: block;
+    text-shadow: 0 0 20px #000f1e;
+    transition: 0.3s;
+    font-family: "Averta", sans-serif;
+}
+
+header .header-all .nav-bar li a:hover{
+    color: #ccc;
+}
+
+header .header-end-box{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Averta", sans-serif;
+    cursor: pointer;
+}
+
+header .header-end-box .left{
+    width: 45%;      
+}
+
+header .header-end-box .rigth i{    
+    width: 100%;
+    color: #fff;
+    transform: translatex(25%);
+}
+
+header .header-end-box .left i{    
+    width: 100%;
+    color: #fff;
+    transform: translatex(15%);
+}
+
+header .header-end-box .rigth{
+    width: 45%;  
+}
+
+header .header-end-box span{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+header ::-webkit-scrollbar{
+    color: black;
+    background-color: white;
+}
+
+#head{
+    padding: 0 4rem;
+    background-image: url(https://nobelelektrik.az/img/slider555.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#head .top{
+    height: 100vh;
+}
+
+#head .top h2{
+    padding-top: 300px;    
+    font-size: 44px;
+    max-width: 800px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 40px;
+    color: #fff;
+    font-family: "Averta", sans-serif;
+}
+
+#head .top a{
+    color: #fff;
+    padding: 14px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: .889rem;
+    line-height: 1;
+    min-width: 200px;
+    border: 2px solid #0c63b4;
+    background-color: #0c63b4;
+    border-radius: 6px;
+    text-align: center;
+    text-transform: none;
+}
+
+#head .box-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+#head .bottom{
+    padding: 2rem 15rem;
+}
+#head .box{
+    border-top: 2px solid #ccc;
+    width: 19%;
+}
+#head .box-all h6{
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0.5rem;
+    font-family: "Averta", sans-serif;
+}
+
+#advantages{
+    border-bottom: 1px solid #F0F0F0;
+    padding: 74px 0;
+}
+
+#advantages .box-all{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#advantages .box{
+    width: calc(100/3);
+}
+
+#advantages h3{
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Averta", sans-serif;
+}
+
+#advantages p{
+    color: #737373;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+#categories{
+    padding: 50px 0;
+    background-color: #f5f5f5;;
+}
+
+#categories .box-all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+#categories .box{
+    width: 18%; 
+    margin-left: 2%;    
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+#categories .box:hover{ 
+    color: white;
+    background-color: #737373;
+}
+
+#categories .top{
+    width: 50%;
+}
+#categories .bottom{
+    width: 100%;
+    align-items: center;
+}
+#categories img{
+    width: 100%;
+    transform: translatex(50%);
+}
+
+#categories h5{
+    color: #272727;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 500;
+    padding-top: 10px;
+    font-family: "Averta", sans-serif;
+}
+
+#references{
+    padding: 60px 0;
+    background-color: white;
+}
+
+#references .box-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#references .box{
+    width: 17%;
+}
+
+#references img{
+    width: 100%;
+    filter: grayscale(1);
+    transition: filter .15s ease,opacity .15s ease,-webkit-filter .15s ease;
+}
+
+#references .box:hover img{
+    filter: grayscale(0);
+}
+
+#references h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.75rem;
+    font-weight: 550;
+    line-height: 1.2;
+    color: #171717;
+    font-family: "Averta", sans-serif;
+}
+
+#brends{
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+#brends .brends-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+#brends .box{
+    width: calc(100%/7);
+    align-items: center;
+    padding: 30px;
+}
+
+#brends .box img{
+    width: 100%;
+    height: auto; 
+    filter: grayscale(1);  
+}
+
+#brends img:hover {
+    filter: grayscale(0);
+}
+
+#brends h3{
+    margin-bottom: 25px;
+    text-align: center!important;
+    font-size: 1.75rem;
+    font-weight: 550;
+    line-height: 1.2;
+    color: #171717;
+    font-family: "Averta", sans-serif;
+}
+
+#projects{
+    padding: 60px 0;
+}
+
+#projects .projects-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#projects .box{
+    width: 32%;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+#projects .box img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#projects .box :hover{
+    opacity: 1.9;  
+}
+
+
+
+
